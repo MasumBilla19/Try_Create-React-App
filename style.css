@@ -1,0 +1,46 @@
+#country-details {
+    height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.country {
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.country-name {
+    font-size: 45px;
+    color: rgb(201, 207, 207);
+}
+.country-capital {
+    font-size: 18px;
+    color: #063f2c;
+}
+button {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 12px 27px;
+    color: #fff;
+    background: crimson;
+    border-color: crimson;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    color: crimson;
+    background: none;
+}
+h1 {
+    text-align: center;
+    padding: 15px 0;
+}
+img {
+    height: 100px;
+}
